@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Press Start 2P';
+    src: url('/PressStart2P-Regular.ttf') format('woff'), url('/PressStart2P-Regular.ttf') format('truetype');
+    /* src: url('https'); */
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    /* border: 1px solid rgb(228, 214, 214); */
+    background-color: #5cbbff;
+    /* background-image: url("mariologo.png"); */
+    /* background-size: 30%; */
+    /* backdrop-filter: dark(10px); */
+}
+
+
+/* 
+.canvascon {
+    width: 100%;
+    height: 100vh;
+    border: 1px solid black;
+} */
+
+canvas {
+    border: 10px solid #D82800;
+    /* border-radius: 10px; */
+    background: #eee;
+    display: block;
+    margin: 10px auto;
+    image-rendering: pixelated;
+}
+
+.console {
+    display: none;
+}
+
+textarea {
+    width: 100px;
+}
