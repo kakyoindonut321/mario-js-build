@@ -1421,15 +1421,15 @@ const bgtiles = []
 
 
 const repeatingbgtiles = [
-    new Tile(amp(-7), xPosR(mapHeight, amp(3)), "./sprite/bush2.png", amp(4), amp(1), 1),
-    new Tile(amp(0), xPosR(mapHeight, amp(5)), "./sprite/mountain_big.png", amp(5), amp(3), 1),
-    new Tile(amp(11), xPosR(mapHeight, amp(3)), "./sprite/bush3.png", amp(5), amp(1), 1),
-    new Tile(amp(16), xPosR(mapHeight, amp(4)), "./sprite/mountain_small.png", amp(3), amp(2), 1),
-    new Tile(amp(23), xPosR(mapHeight, amp(3)), "./sprite/bush1.png", amp(3), amp(1), 1),
-    new Tile(amp(8), xPosR(mapHeight, amp(12)), "./sprite/cloud1.png", amp(3), amp(2), 1),
-    new Tile(amp(19), xPosR(mapHeight, amp(13)), "./sprite/cloud1.png", amp(3), amp(2), 1),
-    new Tile(amp(27), xPosR(mapHeight, amp(12)), "./sprite/cloud3.png", amp(5), amp(2), 1),
-    new Tile(amp(36), xPosR(mapHeight, amp(13)), "./sprite/cloud2.png", amp(4), amp(2), 1),
+    new Tile(amp(-7), xPosR(mapHeight, amp(3)), '../sprite/bush2.png', amp(4), amp(1), 1),
+    new Tile(amp(0), xPosR(mapHeight, amp(5)), '../sprite/mountain_big.png', amp(5), amp(3), 1),
+    new Tile(amp(11), xPosR(mapHeight, amp(3)), '../sprite/bush3.png', amp(5), amp(1), 1),
+    new Tile(amp(16), xPosR(mapHeight, amp(4)), '../sprite/mountain_small.png', amp(3), amp(2), 1),
+    new Tile(amp(23), xPosR(mapHeight, amp(3)), '../sprite/bush1.png', amp(3), amp(1), 1),
+    new Tile(amp(8), xPosR(mapHeight, amp(12)), '../sprite/cloud1.png', amp(3), amp(2), 1),
+    new Tile(amp(19), xPosR(mapHeight, amp(13)), '../sprite/cloud1.png', amp(3), amp(2), 1),
+    new Tile(amp(27), xPosR(mapHeight, amp(12)), '../sprite/cloud3.png', amp(5), amp(2), 1),
+    new Tile(amp(36), xPosR(mapHeight, amp(13)), '../sprite/cloud2.png', amp(4), amp(2), 1),
 ]
 for (let c = 0; c < 5; c++) {
     const newObjects = repeatingbgtiles.map(obj => new Tile(obj.x + (c * amp(48)), obj.y, obj.sprite.src, obj.width, obj.height));
@@ -1438,9 +1438,9 @@ for (let c = 0; c < 5; c++) {
 
 bgtiles.push(...[
     //flagpole
-    new Tile(amp(197), xPosR(mapHeight, amp(13)), "./sprite/flagpole.png", amp(2), amp(10)),
+    new Tile(amp(197), xPosR(mapHeight, amp(13)), '../sprite/flagpole.png', amp(2), amp(10)),
     //castle
-    new Tile(amp(202), xPosR(mapHeight, amp(7)), "./sprite/castle.png", amp(5), amp(5)),
+    new Tile(amp(202), xPosR(mapHeight, amp(7)), '../sprite/castle.png', amp(5), amp(5)),
 ]);
 
 

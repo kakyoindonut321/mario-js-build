@@ -3,11 +3,8 @@
     margin: 0;
 }
 
-@font-face {
-    font-family: 'Press Start 2P';
-    src: url('/PressStart2P-Regular.ttf') format('woff'), url('/PressStart2P-Regular.ttf') format('truetype');
-    /* src: url('https'); */
-}
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 
 body {
     display: flex;
@@ -30,7 +27,7 @@ body {
 canvas {
     border: 10px solid #D82800;
     /* border-radius: 10px; */
-    background: #eee;
+    background: blue;
     display: block;
     margin: 10px auto;
     image-rendering: pixelated;
@@ -38,6 +35,7 @@ canvas {
 
 .console {
     display: none;
+    /* color: #0051ff; */
 }
 
 textarea {
